@@ -1,0 +1,49 @@
+.root{
+    position: relative;
+    background: #FFFFFF;
+}
+#nav {
+    margin-left: 64px;
+    margin-top: 81px;
+}
+button{
+    width: 157px;
+    height: 64px;
+    border-radius: 14px;
+    border: 0;
+    background: #e0e0e0;
+    color: #606060;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+}
+.active, button:hover{
+    background: #606060;
+    color: #e0e0e0;
+}
+#container{
+    display: grid;
+    margin: 28px 64px;
+    grid-template-columns: auto;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    grid-gap: 42px;
+}
+#container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background: #da1e5d;
+    border-radius: 14px;
+    color: #e0e0e0;
+}
+.card h2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
